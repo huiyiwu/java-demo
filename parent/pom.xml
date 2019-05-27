@@ -6,21 +6,25 @@
 
   <groupId>com.huchx</groupId>
   <artifactId>parent</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>spring-boot</module>
+    <module>shj</module>
+  </modules>
 
   <name>parent</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  <modules>
-    <module>spring-boot</module>
-    <module>ssm</module>
-  </modules>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.target>1.7</maven.compiler.target> <!-- 项目属性 -->
+    <jdbc.driver.groupId>mysql</jdbc.driver.groupId>
+    <jdbc.driver.artifactId>mysql-connector-java</jdbc.driver.artifactId>
+    <jdbc.driver.version>5.1.45</jdbc.driver.version>
+
   </properties>
 
   <dependencies>
