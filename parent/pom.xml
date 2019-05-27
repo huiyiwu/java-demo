@@ -11,8 +11,8 @@
   <modules>
     <module>spring-boot</module>
     <module>shj</module>
+    <module>shm</module>
   </modules>
-
 
   <name>parent</name>
   <!-- FIXME change it to the project's website -->
